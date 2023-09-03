@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/userEmailRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="17sp"
+        android:layout_margin="10dp"
+        android:text="userMail"
+        android:layout_gravity="center_vertical"
+        android:gravity="right"
+        android:textColor="#6680FF"
+        android:textStyle="bold"
+        ></TextView>
+    <ImageView
+        android:id="@+id/gorselRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/gorsel_secmek_icin_tiklayin"></ImageView>
+    <TextView
+        android:id="@+id/commentTextRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="CommentCommentCommetn"
+        android:layout_gravity="center_vertical"
+        ></TextView>
+
+</LinearLayout>
